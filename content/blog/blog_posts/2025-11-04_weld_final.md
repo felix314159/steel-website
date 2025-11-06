@@ -42,8 +42,8 @@ By combining these repositories, we've eliminated these pain points and created 
 
 #### Config
 
-- ***Before:*** The EELS branch defining the reference EVM had to be configured in `eels_resolutions.json`.
-- ***After:*** No configuration is required, the EELS reference EVM implementation in the current branch is used out of the box.
+- **Before:** The EELS branch defining the reference EVM had to be configured in `eels_resolutions.json`.
+- **After:** No configuration is required, the EELS reference EVM implementation in the current branch is used out of the box.
 
 #### Tooling: Development Setup
 
