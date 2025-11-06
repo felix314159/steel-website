@@ -42,8 +42,8 @@ By combining these repositories, we've eliminated these pain points and created 
 
 #### Config
 
-- ***Before:*** The EELS branch defining the reference EVM had to be configured in `eels_resolutions.json`.
-- ***After:*** No configuration is required, the EELS reference EVM implementation in the current branch is used out of the box.
+- **Before:** The EELS branch defining the reference EVM had to be configured in `eels_resolutions.json`.
+- **After:** No configuration is required, the EELS reference EVM implementation in the current branch is used out of the box.
 
 #### Tooling: Development Setup
 
@@ -92,15 +92,15 @@ The relevant coverage can be browsed from `/tmp/modexp_upper_bounds_cov/index.ht
 
         ```python
         from execution_testing import (
-        Account,
-        Alloc,
-        Block,
-        BlockchainTestFiller,
-        EIPChecklist,
-        Fork,
-        Op,
-        Transaction,
-        TransactionException,
+            Account,
+            Alloc,
+            Block,
+            BlockchainTestFiller,
+            EIPChecklist,
+            Fork,
+            Op,
+            Transaction,
+            TransactionException,
         )
         ```
 
